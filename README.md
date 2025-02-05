@@ -1,5 +1,7 @@
 <h1>Introducción</h1>
+
 Bienvenido a mi proyecto personal en donde apicaré conocimientos relacionados a:
+
 - JavaScript
 - Css
 - Html
