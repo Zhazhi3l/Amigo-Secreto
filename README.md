@@ -1,6 +1,6 @@
 <h1>Introducción</h1>
 
-Bienvenido a mi proyecto personal en donde apicaré conocimientos relacionados a:
+Bienvenido a mi proyecto personal en donde aplicaré conocimientos relacionados a:
 
 - JavaScript
 - Css
