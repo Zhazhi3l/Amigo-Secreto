@@ -1,6 +1,6 @@
 <h1>Amigo secreto</h1>
 
-<h2>De que trata el mini proyecto "Amigo Secreto"?</h2>
+<h2>¿De que trata el mini proyecto "Amigo Secreto"?</h2>
 
 Amigo Secreto es una aplicación interactiva muy sencilla que surge como evidencia de una ruta de aprendizaje gracias a los cursos de Lógica de programación de Alura Latam.
 
