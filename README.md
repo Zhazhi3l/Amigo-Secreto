@@ -1,9 +1,9 @@
-<h1>Introducción</h1>
+<h1>Amigo secreto</h1>
 
-Bienvenido a mi proyecto personal en donde aplicaré conocimientos relacionados a:
+<h2>De que trata el mini proyecto "Amigo Secreto"?</h2>
 
-- JavaScript
-- Css
-- Html
+Amigo Secreto es una aplicación interactiva muy sencilla que surge como evidencia de una ruta de aprendizaje gracias a los cursos de Lógica de programación de Alura Latam.
 
-Me ayudarías mucho haciendo alguna retroalimentación acerca de mi trabajo y me ayudarías a crecer mucho por lo que es muy importante para mi saber tu opinión, espero te resulte agradable. :)
+<h2>Caracterísicas y funcionamiento</h2>
+
+Amigo Secreto tiene una funcionalidad muy sencilla que consta de recibir un nombre que se añade a una lista al pulsar el botón "Añadir", mismo que añade el nombre a una lista que se utilizará posteriormente para escoger y mostrar en pantalla un nombre aleatorio de la lista después de pular el botón "Sortear amigo".
