@@ -9,15 +9,15 @@ let arrayAmigos=[];
 
 //Métodos
 function limpiarCaja() {
-    document.getElementById('amigo').value = ''; ;
+    document.getElementById('amigo').value = '';
 }
 
 function agregarAmigo(){
-    let nombre = document.getElementById('amigo').value;
+    let nombre = document.getElementById('amigo').value.trim();
     
     if (nombre !== ""){
         for(let i = 0; i < arrayAmigos.length; i++){ //Revisar si ya existe el nombre en el array
-            if (nombre == arrayAmigos[i]){// Nota: Revisar si existe el equalsIgnoreCase
+            if (equalsIgnoreCase(nombre, arrayAmigos[i])){// Nota: Revisar si existe el equalsIgnoreCase
                 alert('¡Ya has escrito ese nombre!');
                 return;
             }
@@ -39,4 +39,9 @@ function actualizarLista(){
         elementoLista.textContent = arrayAmigos[i];
         lista.appendChild(elementoLista);
     }
+}
+
+//Métodos de utilidad
+function equalsIgnoreCase(cadena1, cadena2){
+    return cadena1.toLowerCase() === cadena2.toLowerCase();
 }
