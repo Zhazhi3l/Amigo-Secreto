@@ -45,7 +45,7 @@ function sortearAmigo(){
     let resultado = document.getElementById('resultado');
     if(!(arrayAmigos.length <= 1)){
         let indiceSorteo = Math.floor(Math.random()*arrayAmigos.length);
-        resultado.innerHTML = arrayAmigos[indiceSorteo]; 
+        resultado.innerHTML = `✨ ¡${arrayAmigos[indiceSorteo]} es el amigo secreto! ✨`; 
     } else {
         alert(arrayAmigos < 1 ? '¡No hay ninguna persona en la lista!' : '¡Sólo hay una persona en la lista!');
     }
