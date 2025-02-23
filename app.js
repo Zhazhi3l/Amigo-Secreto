@@ -15,9 +15,9 @@ function limpiarCaja() {
 function agregarAmigo(){
     let nombre = document.getElementById('amigo').value.trim();
     
-    if (nombre !== ""){
-        for(let i = 0; i < arrayAmigos.length; i++){ //Revisar si ya existe el nombre en el array
-            if (equalsIgnoreCase(nombre, arrayAmigos[i])){// Nota: Revisar si existe el equalsIgnoreCase
+    if (nombre !== "" && nombre.match(/^[A-Za-zÁáÉéÍíÓóÚúÑñ\s]+$/)){
+        for(let i = 0; i < arrayAmigos.length; i++){
+            if (equalsIgnoreCase(nombre, arrayAmigos[i])){
                 alert('¡Ya has escrito ese nombre!');
                 return;
             }
@@ -27,13 +27,17 @@ function agregarAmigo(){
         actualizarLista();
         console.log(arrayAmigos);
     } else {
-        alert('Por favor, ingrese un nombre primero.');
+        if(!nombre.match(/^[A-Za-zÁáÉéÍíÓóÚúÑñ\s]+$/)){
+            alert('Por favor, ingrese solo letras o espacios.');
+        }else{
+            alert('Por favor, ingrese un nombre primero.');
+        }
     }
 }
 
 function actualizarLista(){
     let lista = document.getElementById('listaAmigos');
-    lista.innerHTML = ""; //Limpia para evitar duplicados
+    lista.innerHTML = "";
     for (let i = 0; i < arrayAmigos.length; i++){
         let elementoLista = document.createElement('li');
         elementoLista.textContent = arrayAmigos[i];
