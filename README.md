@@ -97,4 +97,4 @@ Cuando ya haya agregado toda la lista de amigos que desee puede sortear y se mos
 
 <h2>💡 Autor</h2>
  
-[¡Puedes visitar mi perfil de LinkedIn!](www.linkedin.com/in/kevin-haziel-elias-zavala-181b4434b) <p align="center"><img src="assets/Yo-selfie.jpg" width="40"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn Logo" width="50"></p>
+[¡Puedes visitar mi perfil de LinkedIn!](www.linkedin.com/in/hazzav) <p align="center"><img src="assets/Yo-selfie.jpg" width="40"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn Logo" width="50"></p>
